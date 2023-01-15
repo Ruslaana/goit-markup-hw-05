@@ -180,11 +180,6 @@ body {
     background-color: var(--title-text-color);
     display: flex;
     gap: 120px;
-
-    /* width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto; */
 }
 
 .hero {
@@ -246,7 +241,6 @@ body {
 
 .work {
     padding-bottom: 120px;
-    /* padding-top: 72px; */
 }
 
 .feature-title {
