@@ -146,9 +146,17 @@ body {
     position: relative;
 }
 
+.site-list .link {
+    color: var(--title-text-color);
+    font-weight: 500;
+}
+
+.link.current{
+    color: var(--hover-text-color);
+}
 
 
-.header-link.current::after{
+.current::after{
     content: "";
     position: absolute;
     width: 100%;
@@ -159,10 +167,7 @@ body {
     bottom: 0;
 }
 
-.site-list .link {
-    color: var(--title-text-color);
-    font-weight: 600;
-}
+
 .contact-list .link {
     color: var(--primary-text-color);
 }
