@@ -146,7 +146,6 @@ body {
     padding-bottom: 24px;
     position: relative;
     transition: color var(--transition-duration),
-    background-color var(--transition-duration);
 }
 
 
@@ -168,7 +167,7 @@ body {
     border-radius: 2px;
     background-color: var(--hover-text-color);
     left: 0;
-    bottom: 0;
+    bottom: -1px;
 }
 
 
@@ -642,6 +641,7 @@ border: 1px solid var(--footer-text-color);
     background-color: var(--footer-text-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
+    cursor: pointer;
     transition: background-color var(--transition-duration);
 }
 
